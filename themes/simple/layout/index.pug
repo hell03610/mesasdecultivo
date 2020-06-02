@@ -1,0 +1,59 @@
+extends partial/layout.pug
+
+block content
+  section.home-slider
+    img(src=url_for('img/hero.jpeg'))
+
+  .slant-1
+
+  section.site-section.first-section
+    h1.site-section-heading.text-center Construyendo mesas de cultivo
+
+      
+    section.highlights
+      ul
+        li
+          h2 Colaborativas
+          p Entre las asociaciones Benimakers, El Club de l'Horta y HackerSpace.
+        li 
+          h2 Respetuosas
+          p La materia prima serán palés reutilizados, los componentes y tratamientos serán respetuosos con el medio ambiente.
+        li 
+          h2 Agenda 2030
+          p Un proyecto financiado por la Fundación Horta Sud, dentro del marco de la Agenda 2030.
+        li 
+          h2 Conocimiento libre
+          p Porque queremos que cualquiera pueda construirse su mesa de cultivo, el proyecto es creative commons.
+
+  section.site-half
+    img(src=url_for('img/prototipo_1.jpeg'))
+
+    div.content-wrapper
+      h2.site-section-heading Primer prototipo
+      p El primer prototipo construido en una tarde con 3 palés. Modelo funcional donado a una huerta urbana. 
+
+  section.site-half.right
+    img(src=url_for('img/prototipo_2.jpeg'))
+
+    div.content-wrapper
+      h2.site-section-heading Prototipo modular
+      p Se trata de un prototipo modular, con 50cm de fondo, 120cm de largo y 20cm de fondo. Será trasladado al espacio de La Barraca para su tratamiento de calor y ensamblado final. En ella se comenzará a preparar el sistema de riego automático.
+
+  section.site-half
+    img(src=url_for('img/bancales.jpeg'))
+
+    div.content-wrapper
+      h2.site-section-heading Bancales para niños
+      p Queremos ir sobreseguros y estos bancales reciclados de viejas jardineras permiten que los más pequeños vean y cuiden de los cultivos a su altura y sin pisarlos.
+
+  section.site-section.inverted
+    h2 Patrocinadores
+    p Este proyecto ha sido dotado económicamente en 2020 por el programa de Ayudas a Proyectos Interasociativos de la Fundación Horta Sud.
+    ul.sponsors
+      li
+        img(src=url_for('img/logo_fundacion_horta_sud.png'))
+      li
+        img(src=url_for('img/logo_caixa_popular.png'))
+      li
+        img(src=url_for('img/logo_ugarte.png'))
+      

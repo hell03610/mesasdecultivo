@@ -1,0 +1,41 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "hexo": {
+    "version": "4.2.0"
+  },
+  "dependencies": {
+    "hexo": "^4.0.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^2.2.0",
+    "hexo-generator-index": "^1.0.0",
+    "hexo-generator-sitemap": "^2.0.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-marked": "^2.0.0",
+    "hexo-renderer-pug": "^1.0.0",
+    "hexo-renderer-sass": "^0.4.0",
+    "hexo-renderer-stylus": "^1.1.0",
+    "hexo-server": "^1.0.0"
+  },
+  "scripts": {
+    "start": "nodemon -x \"npm run serve\"",
+    "serve": "hexo server",
+    "deploy": "hexo clean && hexo generate && mv public/index.html public/200.html && surge public"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "ext": "js,json,pug,md,scss",
+    "ignore": [
+      "db.json",
+      "themes/simple/_config.yml",
+      "public/"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "surge": "^0.21.3"
+  }
+}

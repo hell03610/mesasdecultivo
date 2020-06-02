@@ -1,0 +1,11 @@
+block header
+  header.site-navbar
+    nav.site-navigation
+      h2.site-logo
+        a(href='/')= config.title
+
+      ul.site-menu
+        each item in theme.menu
+          li
+            a(href=item.directory)= item.page
+
