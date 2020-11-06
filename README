@@ -1,0 +1,15 @@
+# Project's website
+
+Website published at https://mesasdecultivo.surge.sh
+
+Website based on [hexo](https://hexo.io/), a fast, simple and powerful blog framework.
+Internal theme layout based on [PugJS](https://pugjs.org/api/getting-started.html).
+
+## Installation
+
+- Install docker, docker-compose, make
+- Clone this repo
+- Run make install to install all the dependences
+- Run make start to build the project
+- Visit the website at http://localhost:4000
+
