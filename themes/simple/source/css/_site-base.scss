@@ -19,11 +19,11 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-::-moz-selection { 
+::-moz-selection {
 	background: $black;
 	color: $white;
 }
-::selection { 
+::selection {
 	background: $black;
 	color: $white;
 }
@@ -91,7 +91,7 @@ a {
 		width: 100%;
 		z-index: 2;
 		overflow: hidden;
-		
+
 		&:before {
 			opacity: 1;
 			visibility: visible;
@@ -124,6 +124,7 @@ a {
 	}
 }
 
+
 .site-section-heading {
 	font-size: 30px;
 	text-transform: uppercase;
@@ -149,16 +150,16 @@ a {
 			width: 40px;
 			height: 2px;
 			background: $primary;
-		}	
+		}
 	}
-	
+
 }
 .site-footer {
 	padding: 4em 0;
 
 	background: darken(#2b2b28, 5%);
 	color: rgba($white, .5);
-	
+
 	.footer-heading {
 		font-size: 1rem;
 		text-transform: uppercase;

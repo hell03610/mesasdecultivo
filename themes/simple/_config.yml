@@ -1,7 +1,9 @@
 menu:
   - page: El Proyecto
     directory: /
-  - page: Quienes somos
-    directory: /
+  - page: Quiénes somos
+    directory: /quienes-somos/
+  - page: Métricas
+    directory: /metricas/
 twitter_meta: true
 open_graph_meta: true

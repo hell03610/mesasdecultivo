@@ -68,7 +68,7 @@
 	@include media-breakpoint-up(md) {
 		flex-direction: row;
 	}
-			
+
 	img {
 		@include media-breakpoint-only(sd) {
 			max-width:100%;
@@ -109,6 +109,15 @@
 	}
 }
 
+.page {
+ margin: 4rem 2rem;
+ header {
+  margin-bottom: 2rem;
+ }
+ h1 {
+  margin: 0;
+ }
+}
 ul.sponsors {
 	list-style: none;
 
